@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-top {
+  height: 85px;
+  width: 100%;
+  border-bottom: #e5e5e5 1px solid;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+
+.header-nav {
+  height: 60px;
+  width: 100%;
+  border-bottom: #e5e5e5 1px solid;
+}
+.header-nav ul {
+  margin: 0;
+  padding: 21px 0;
+  float: left; /* ul блочный элемент, теперь кнопка перенеслась справа от него */
+}
+.header-nav li {
+  float: left; /* в линию */
+  margin-right: 90px;
+  list-style: none;
+}
+.header-nav li a {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none; /* убираем подчеркивание ссылок*/
+}
+.header-nav li a:hover {
+  color: #a6b03b;
+  text-decoration: underline;
+}
+.header-nav .btn {
+  width: 170px;
+  height: 35px;
+  border: 1px solid #909090;
+  background: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #333;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.header-nav .btn:hover {
+  background: #a6b03b;
+  color: #fff;
+}
+
+.header-nav .btn-img {
+  background: #fff;
+  border: none;
+  margin-left: 31px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header-nav .btn-img img {
+  vertical-align: sub;
+}
+
+.container {
+  width: 1150px;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+}
+
+#logo-header img {
+  width: 174px;
+  height: 57px;
+  float: left;
+  margin-top: 15px;
+}
+
+.contacts {
+  float: right;
+  margin-top: 29px;
+}
+
+.contacts div {
+  float: left;
+  margin-right: 70px;
+}
+
+.contacts div:last-child {
+  margin-right: 0;
+}
+
+.contacts div img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
