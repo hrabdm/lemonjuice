@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header-top {
@@ -19,25 +20,34 @@ body {
   width: 100%;
   border-bottom: #e5e5e5 1px solid;
 }
+
 .header-nav ul {
   margin: 0;
   padding: 21px 0;
-  float: left; /* ul блочный элемент, теперь кнопка перенеслась справа от него */
+  float: left;
+  /* ul блочный элемент, теперь кнопка перенеслась справа от него */
 }
+
 .header-nav li {
-  float: left; /* в линию */
+  float: left;
+  /* в линию */
   margin-right: 90px;
   list-style: none;
+  /* удаляет точки в списке */
 }
+
 .header-nav li a {
   font-size: 15px;
   color: #333;
-  text-decoration: none; /* убираем подчеркивание ссылок*/
+  text-decoration: none;
+  /* убираем подчеркивание ссылок*/
 }
+
 .header-nav li a:hover {
   color: #a6b03b;
   text-decoration: underline;
 }
+
 .header-nav .btn {
   width: 170px;
   height: 35px;
@@ -49,6 +59,7 @@ body {
   margin-top: 16px;
   cursor: pointer;
 }
+
 .header-nav .btn:hover {
   background: #a6b03b;
   color: #fff;
@@ -71,7 +82,6 @@ body {
 .container {
   width: 1150px;
   height: 100%;
-  background: #fff;
   margin: 0 auto;
 }
 
@@ -99,4 +109,100 @@ body {
 .contacts div img {
   margin-right: 8px;
   vertical-align: middle;
+}
+
+.header-bg {
+  width: 100%;
+  position: relative;
+  margin-bottom: -3px;
+}
+
+.header-bg img {
+  width: 100%;
+}
+
+.header-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.main-header {
+  position: relative;
+}
+
+.header-promo {
+  position: absolute;
+  top: calc(50% - 136px);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.header-promo h2 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 62px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.header-promo a {
+  display: block;
+  margin: 0 auto;
+  width: 270px;
+  height: 50px;
+  background: #A6B03B;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 3.5;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.main-quote {
+  width: 100%;
+  height: 120px;
+  background: #F6F7EB;
+  padding: 40px 0;
+}
+
+
+.main-quote .container {
+  width: 800px;
+}
+
+.main-quote h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+  color: #495F1D;
+}
+
+.main-quote h4 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
 }
