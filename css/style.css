@@ -264,30 +264,30 @@ body {
 }
 
 .item-img.technical-support {
-  background: url(img/about/technical-support.svg) no-repeat;
+  background: url(/img/about/technical-support.svg) no-repeat;
 }
 
 .item-img.partner {
   width: 65px;
   height: 65px;
   margin-bottom: 30px;
-  background: url(img/about/partner.svg) no-repeat;
+  background: url(/img/about/partner.svg) no-repeat;
 }
 
 .item-img.leader {
-  background: url(img/about/leader.svg) no-repeat;
+  background: url(/img/about/leader.svg) no-repeat;
 }
 
 .competence-item:hover .item-img.technical-support {
-  background: url(img/about/technical-support-white.svg) no-repeat;
+  background: url(/img/about/technical-support-white.svg) no-repeat;
 }
 
 .competence-item:hover .item-img.partner {
-  background: url(img/about/partner-white.svg) no-repeat;
+  background: url(/img/about/partner-white.svg) no-repeat;
 }
 
 .competence-item:hover .item-img.leader {
-  background: url(img/about/leader-white.svg) no-repeat;
+  background: url(/img/about/leader-white.svg) no-repeat;
 }
 
 
