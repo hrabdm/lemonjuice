@@ -80,7 +80,7 @@ body {
 }
 
 .container {
-  width: 1150px;
+  width: 1170px;
   height: 100%;
   margin: 0 auto;
 }
@@ -121,8 +121,8 @@ body {
   width: 100%;
 }
 
-.header-gradient {
-  background: rgb(0, 0, 0);
+.gradient {
+  /* background: rgb(0, 0, 0); */
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
   height: 100%;
   width: 100%;
@@ -181,7 +181,7 @@ body {
   padding: 40px 0;
 }
 
-
+/* QUOTE */
 .main-quote .container {
   width: 800px;
 }
@@ -205,4 +205,193 @@ body {
   line-height: 18px;
   text-align: center;
   color: #333333;
+}
+
+/* ABOUT */
+.main-about {
+  width: 100%;
+  height: 647px;
+}
+
+.main-about h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #495F1D;
+  text-align: center;
+}
+
+.about-description {
+  margin-bottom: 50px;
+}
+
+.about-description p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  width: 805px;
+  margin: 0 auto;
+}
+
+.competence-item {
+  width: 264px;
+  height: 225px;
+  background: #F6F7EB;
+  float: left;
+  margin-right: 30px;
+  padding: 30px 53px 45px;
+}
+
+.aboute-competence .competence-item:last-child {
+  margin-right: 0;
+}
+
+.competence-item:hover {
+  background: #A6B03B;
+}
+
+.item-img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 35px;
+
+}
+
+.item-img.technical-support {
+  background: url(img/about/technical-support.svg) no-repeat;
+}
+
+.item-img.partner {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 30px;
+  background: url(img/about/partner.svg) no-repeat;
+}
+
+.item-img.leader {
+  background: url(img/about/leader.svg) no-repeat;
+}
+
+.competence-item:hover .item-img.technical-support {
+  background: url(img/about/technical-support-white.svg) no-repeat;
+}
+
+.competence-item:hover .item-img.partner {
+  background: url(img/about/partner-white.svg) no-repeat;
+}
+
+.competence-item:hover .item-img.leader {
+  background: url(img/about/leader-white.svg) no-repeat;
+}
+
+
+.competence-item h2 {
+  text-transform: lowercase;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #495F1D;
+}
+
+.competence-item h2::first-letter {
+  text-transform: uppercase;
+}
+
+.competence-item p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.competence-item:hover h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.competence-item:hover p {
+  color: white;
+}
+
+/* CUSTOMERS */
+.main-customers {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.customers-bg img {
+  width: 100%;
+
+}
+
+.customers {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.customers-item {
+  width: 200px;
+  text-align: right;
+  margin-right: 150px;
+  position: absolute;
+  top: 0;
+}
+
+.customers-item.villas {
+  left: 440px;
+}
+
+.customers-item.years {
+  left: 840px;
+}
+
+.customers-item.cust {
+  left: 1240px;
+}
+
+.customers-item:last-child {
+  margin-right: 0;
+}
+
+.customers-item img {
+  width: 193px;
+  height: 195px;
+  margin-top: 108px;
+}
+
+.customers-numbers {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 133px;
+  color: #A6B03B;
+  margin-left: -105px;
+  top: 150px;
+  position: absolute;
+}
+
+.customers-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: right;
 }
