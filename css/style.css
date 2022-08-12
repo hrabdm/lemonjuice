@@ -337,7 +337,6 @@ body {
 .main-customers {
   position: relative;
   height: 450px;
-  /* overflow: hidden; */
   display: flex;
   justify-content: center;
 }
@@ -357,11 +356,11 @@ body {
   position: absolute;
   width: 100%;
   top: 0;
+  justify-content: space-between;
 }
 
 .customers-block {
   width: 33.33%;
-  /* padding: 0 10px; */
 }
 
 .customers-img {
@@ -394,4 +393,80 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+}
+
+/* NEWS SECTION */
+.main-news {
+  height: 750px;
+  position: relative;
+}
+
+.main-news h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #495F1D;
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 55px;
+  margin: 0;
+}
+
+.news-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.news-block {
+  width: 33.33%;
+  height: 520px;
+  max-width: 370px;
+  background: #F6F7EB;
+}
+
+.news-img {}
+
+.news-header {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #4F4F4F;
+  margin: 17px 31px 0 35px;
+}
+
+.news-date {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #BDBDBD;
+  margin: 7px 0 0 35px;
+}
+
+.news-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333333;
+  margin: 6px 31px 29px 35px;
+}
+
+.news-next {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4F4F4F;
+  margin-left: 270px;
 }
