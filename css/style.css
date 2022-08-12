@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .header-top {
@@ -79,11 +91,7 @@ body {
   vertical-align: sub;
 }
 
-.container {
-  width: 1170px;
-  height: 100%;
-  margin: 0 auto;
-}
+
 
 #logo-header img {
   width: 174px;
