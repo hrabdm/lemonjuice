@@ -337,48 +337,39 @@ body {
 .main-customers {
   position: relative;
   height: 450px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
 }
 
 .customers-bg img {
   width: 100%;
-
+  height: 450px;
 }
 
-.customers {
-  width: 1170px;
-  height: 100%;
-  margin: 0 auto;
-}
-
-.customers-item {
-  width: 200px;
-  text-align: right;
-  margin-right: 150px;
+.main-customers .container {
   position: absolute;
   top: 0;
 }
 
-.customers-item.villas {
-  left: 440px;
+.customers-wrapper {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
-.customers-item.years {
-  left: 840px;
+.customers-block {
+  width: 33.33%;
+  /* padding: 0 10px; */
 }
 
-.customers-item.cust {
-  left: 1240px;
-}
-
-.customers-item:last-child {
-  margin-right: 0;
-}
-
-.customers-item img {
+.customers-img {
   width: 193px;
   height: 195px;
   margin-top: 108px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .customers-numbers {
@@ -388,8 +379,8 @@ body {
   font-size: 100px;
   line-height: 133px;
   color: #A6B03B;
-  margin-left: -105px;
-  top: 150px;
+  margin: 0 0 0 180px;
+  top: 140px;
   position: absolute;
 }
 
@@ -401,5 +392,6 @@ body {
   line-height: 24px;
   color: #FFFFFF;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
+  margin: 0;
 }
