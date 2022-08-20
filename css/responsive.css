@@ -155,6 +155,48 @@
     .faq-wrapper {
         grid-template-columns: 100%;
     }
+
+    .getintoch-wrapper {
+        grid-template-columns: 100%;
+    }
+
+    .contact-map {
+        float: unset;
+    }
+
+    .contact-block {
+        float: unset;
+    }
+
+    .contact-block {
+        max-width: unset;
+    }
+
+    .contact-block h4 {
+        text-align: center;
+    }
+
+    .cont-item {
+        margin-left: 25vw;
+    }
+
+    .getintoch-block form {
+        column-gap: 20px;
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+
+    .getintoch-block {
+        margin: 0 auto;
+        max-width: unset;
+    }
+
+    .subscribe-wrapper form {
+        width: 95%;
+        justify-content: space-around;
+    }
+
+
 }
 
 
@@ -236,7 +278,7 @@
         width: 520px;
     }
 
-    form input {
+    .subscribe-wrapper form input {
         width: 250px;
     }
 
@@ -280,6 +322,14 @@
 
     .customers-wrapper {
         grid-template-columns: repeat(auto-fit, minmax(426px, 1fr));
+    }
+
+    .getintoch-block form input {
+        width: 240px;
+    }
+
+    .article-wrapper {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -419,6 +469,30 @@
         font-size: 30px;
         line-height: 43px;
         margin-bottom: 15px;
+    }
+
+    .getintoch-block #send {
+        grid-column: unset;
+    }
+
+    .getintoch-block #message {
+        grid-column: unset;
+    }
+
+    .getintoch-block form {
+        grid-template-columns: 90%;
+    }
+
+    .getintoch-block {
+        width: 90%;
+    }
+
+    .article-wrapper:first-child {
+        margin-top: 50px;
+    }
+
+    .article-wrapper:last-child {
+        margin-bottom: 50px;
     }
 }
 
