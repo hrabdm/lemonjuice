@@ -466,8 +466,7 @@ SERVICES
   font-size: 40px;
   line-height: 53px;
   color: #495F1D;
-  margin-top: 81px;
-  margin-bottom: 56px;
+  margin: 81px 10px 56px 31px;
 }
 
 .faq-wrapper {
@@ -975,7 +974,8 @@ form input {
   background: url(/img/user.svg) no-repeat #fff center left 10px/auto 40%;
 }
 
-#email {
+#email,
+#email1 {
   background: url(/img/email.svg) no-repeat #fff center left 10px/auto 40%;
 }
 
@@ -1575,4 +1575,21 @@ th {
   text-transform: uppercase;
   /* color: #4F4F4F; */
   color: #fff;
+}
+
+.article-wrapper.single-page {
+  margin-bottom: 65px;
+}
+
+.services-wrapper.single-page {
+  margin-bottom: 50px;
+  padding-bottom: 0;
+}
+
+.article-wrapper.single-page .article-item {
+  background: #fff;
+}
+
+.article-wrapper.single-page .article-item p {
+  margin-bottom: 60px;
 }
