@@ -451,8 +451,6 @@ SERVICES
   color: white;
 }
 
-.section-faq {}
-
 .faq-img img {
   width: 100%;
   object-fit: cover;
@@ -884,10 +882,6 @@ SERVICES
   grid-template-rows: auto auto auto auto;
   row-gap: 20px;
   justify-content: space-between;
-}
-
-.getintoch-block input {
-  /*  */
 }
 
 .getintoch-block #message {
@@ -1388,8 +1382,6 @@ REPURPOSING
   list-style: none;
 }
 
-.dotted-ul li {}
-
 .dotted-ul li::before {
   content: "";
   width: 10px;
@@ -1481,8 +1473,6 @@ thead {
   color: #FFFFFF;
   background: #909090;
 }
-
-tbody {}
 
 th {
   height: 50px;
