@@ -335,7 +335,7 @@ SERVICES
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
-  padding-bottom: 88px;
+  margin-bottom: 88px;
 }
 
 .services-wrapper {
@@ -1583,3 +1583,12 @@ th {
 .article-wrapper.single-page .article-item p {
   margin-bottom: 60px;
 }
+
+/* Remove float */
+/*
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+*/
