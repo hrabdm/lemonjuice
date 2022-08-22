@@ -9,6 +9,10 @@
         object-fit: cover;
         height: 344px;
     }
+
+    .accordion {
+        padding-right: 11px;
+    }
 }
 
 
@@ -154,6 +158,10 @@
 
     .faq-wrapper {
         grid-template-columns: 100%;
+    }
+
+    .accordion {
+        padding-right: 34px;
     }
 
     .getintoch-wrapper {
@@ -460,7 +468,11 @@
         margin-bottom: 12px;
     }
 
-    .faq-wrapper a {
+    .accordion h4 {
+        padding-right: 30px;
+    }
+
+    .accordion h4 {
         font-size: 10px;
         line-height: 13px;
     }

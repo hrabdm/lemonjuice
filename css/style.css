@@ -451,10 +451,14 @@ SERVICES
   color: white;
 }
 
+.faq-img {
+  overflow: hidden;
+}
+
 .faq-img img {
   width: 100%;
   object-fit: cover;
-  object-position: center;
+  height: 100%;
 }
 
 .faq-header {
@@ -469,32 +473,47 @@ SERVICES
 
 .faq-wrapper {
   display: grid;
-  grid-template-columns: 50% 585px;
+  grid-template-columns: 50% 569px;
 }
 
-.faq-wrapper ul {
+.accordion {
   width: 100%;
-  padding-left: 31px;
-  padding-right: 26px;
+  margin-left: 31px;
+  height: fit-content;
+  margin-bottom: 20px;
+  padding-right: 20px;
 }
 
-.faq-wrapper li {
-  list-style: none;
-  width: 100%;
-  height: 60px;
-  margin-bottom: 10px;
-  background: #FAF9F5;
-  padding: 18px 0 18px 26px;
-}
-
-.faq-wrapper a {
-  text-decoration: none;
+.accordion h4 {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #333333;
+  background: #FAF9F5 url(/img/arrow-square.gif) no-repeat right -34px;
+  margin-top: 11px;
+  padding: 18px 18px 18px 26px;
+}
+
+.accordion h4.active {
+  background-position: right 22px;
+}
+
+.accordion h4:hover {
+  cursor: pointer;
+}
+
+.accordion p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #333333;
+  padding: 20px 0 6px 0;
+  background: #FAF9F5;
+  padding: 20px 18px 24px 26px;
 }
 
 /* CUSTOMERS */
